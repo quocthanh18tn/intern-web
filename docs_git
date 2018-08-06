@@ -1,0 +1,15 @@
+create account in GIT
+-$ ssh-keygen -t rsa -b 4096 -C "baoom159@gmail.com"
+-  $eval $(ssh-agent -s)
+- $ ssh-add ~/.ssh/id_rsa
+$ ls -al ~/.ssh/id_rsa.pub
+$ cat ~/.ssh/id_rsa.pub
+// add ssh key
+
+- download project ve
+git clone git@github.com:tidibi272/HaiNam_intern.git
+
+- update project
+git add .
+git commit -m "message"
+git push -u origin master
